@@ -1,4 +1,4 @@
-# Low-Poly-Images
+# Low-Poly-Images (First Version)
 Repo for an idea I had in mind to create low poly versions of images.
 
 Idea: Create low poly images by creating random polys all over the image and average the pixels of the original image.
@@ -10,3 +10,9 @@ Idea: Create low poly images by creating random polys all over the image and ave
 Problems:
 Due to random selection of the xy positions it is not guaranteed to fill the new image. In fact, without many repetitions, the image will never be completely filled with the colors of the original image.
 Performance is not optimized.
+
+# Low-Poly-Images (Second Version)
+Similar to the first approach, but instead of KNN, the Dulaunay method to create polygons is used. Results are much better!  
+
+![Resulting Image](https://raw.githubusercontent.com/melching/Low-Poly-Images/master/low_poly_res.jpg)
+
