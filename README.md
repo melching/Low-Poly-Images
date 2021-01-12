@@ -14,5 +14,8 @@ Performance is not optimized.
 # Low-Poly-Images (Second Version)
 Similar to the first approach, but instead of KNN, the Dulaunay method to create polygons is used. Results are much better!  
 
-![Resulting Image](https://raw.githubusercontent.com/melching/Low-Poly-Images/master/low_poly_res.jpg)
+![Resulting Image](https://raw.githubusercontent.com/melching/Low-Poly-Images/master/images/test_image-lp.jpg)
 
+![Resulting Image](https://raw.githubusercontent.com/melching/Low-Poly-Images/master/images/test_image_2-comp.jpg)
+
+![Resulting Image](https://raw.githubusercontent.com/melching/Low-Poly-Images/master/images/test_image_3-comp.jpg)
